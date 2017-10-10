@@ -12,5 +12,5 @@ function johnLennonFacts(lennonfacts) {
   while (testnumber<lennonfacts.length) {
     result.push(lennonfacts[testnumber++] + '!!!')
   }
-  return lennonfacts
+  return result
 }
