@@ -10,7 +10,7 @@ function johnLennonFacts(lennonfacts) {
   var result =[]
   var testnumber = 0
   while (testnumber<lennonfacts.length) {
-    lennonfacts[testnumber] + '!!!'
+    result.push(lennonfacts[testnumber] + '!!!')
   }
   return lennonfacts
 }
